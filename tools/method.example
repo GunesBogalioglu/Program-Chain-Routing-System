@@ -1,0 +1,11 @@
+{
+    "filename": "pingo.exe",
+    "default_args": "-s9 -quiet -norotation -nostrip \"fileloc\"",
+    "support":[".jpg", ".png"],
+    "jpg_lossless": "-s9 -noconversion -jpgtype=2 -quiet -norotation -nostrip \"fileloc\"",
+    "jpg_lossy": "-jpgquality=95 -jpgsub -noconversion -jpgtype=2 -quiet -norotation -nostrip \"fileloc\"",
+    "png_lossless": "-s9 -quiet -norotation -nostrip \"fileloc\"",
+    "png_lossy": "-pngpalette=100 -s9 -quiet -norotation \"fileloc\"",
+    "priority":2,
+    "loss": true
+}
